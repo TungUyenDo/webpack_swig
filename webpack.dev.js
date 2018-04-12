@@ -7,6 +7,7 @@
    devServer: {
 		contentBase: path.join(__dirname, "dist"),
 		compress: true,
-		port: 5000
+		port: 3000,
+		open: true,
 	}
  });
