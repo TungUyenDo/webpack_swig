@@ -1,15 +1,21 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+{% include 'partials/_head.html' %}
 
-    {% include 'partials/_header.html' %}
-     {% include 'partials/_main.html' %}
-    {% include 'partials/_footer.html' %}
+<!-- <main>
+   <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <h2 class="">List Page</h2>
+                <ul>
+                    <li>
+                        <a href="../template/partials/_main.html">Main Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+   </div>
+</main> -->
+
+{% include 'components/main.html' %}
+{% include 'partials/_foot.html' %}
     
-    
-</body>
-</html>
+ 
