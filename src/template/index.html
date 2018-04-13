@@ -1,21 +1,12 @@
-{% include 'partials/_head.html' %}
+{% include 'components/_head.html' %}
 
-<!-- <main>
-   <div class="container">
-        <div class="col-md-12">
-            <div class="row">
-                <h2 class="">List Page</h2>
-                <ul>
-                    <li>
-                        <a href="../template/partials/_main.html">Main Page</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-   </div>
-</main> -->
+<main>
+    {% include 'components/_header.html' %}
+    {% include 'components/_main.html' %}
+    {% include 'components/_page1.html' %}
+    {% include 'components/_footer.html' %}
+</main>
 
-{% include 'components/main.html' %}
-{% include 'partials/_foot.html' %}
+{% include 'components/_foot.html' %}
     
  
